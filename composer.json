@@ -1,0 +1,23 @@
+{
+  "name": "dakujem/sleeve",
+  "license": "Unlicense",
+  "authors": [
+    {
+      "name": "Andrej Rypák",
+      "email": "xrypak@gmail.com"
+    }
+  ],
+  "require": {
+    "pimple/pimple": "^3"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "keywords": [
+    "psr-7",
+    "pimple",
+    "dependency-injection-container"
+  ]
+}
