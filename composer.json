@@ -1,0 +1,43 @@
+{
+  "name": "dakujem/sleeve",
+  "description": "Lightweight PSR-11 service container \uD83D\uDCE6.",
+  "license": "Unlicense",
+  "authors": [
+    {
+      "name": "Andrej Rypák",
+      "email": "xrypak@gmail.com"
+    }
+  ],
+  "keywords": [
+    "psr-11",
+    "pimple",
+    "dependency-injection-container"
+  ],
+  "require": {
+    "pimple/pimple": "^3"
+  },
+  "require-dev": {
+    "php": ">=7",
+    "nette/tester": "^2.3"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "scripts": {
+    "test": "@test:local",
+    "test:local": "tester tests -C",
+    "test:ci": "tester tests"
+  },
+  "scripts-descriptions": {
+    "test": "Run application tests. (defaults to local tests)",
+    "test:local": "Run application tests with local configuration.",
+    "test:ci": "Run application tests, provide configuration options as needed."
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
