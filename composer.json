@@ -19,5 +19,10 @@
     "psr-7",
     "pimple",
     "dependency-injection-container"
-  ]
+  ],
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
 }
