@@ -5,7 +5,7 @@ A lightweight dependency injection container to go with micro frameworks.
 
 Sleeve...
 - is dead simple
-- is PSR-7 compatible
+- is PSR-11 compatible
 - extends Pimple ([pimple/pimple](https://packagist.org/packages/pimple/pimple)), a Symfony DI container
 - only adds a couple of convenience methods (accessors) on top of the original
 - works well with [Slim v4](https://github.com/slimphp/Slim)
