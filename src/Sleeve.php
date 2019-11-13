@@ -3,7 +3,7 @@
 
 namespace Dakujem;
 
-use Pimple\Container;
+use Pimple\Container as Pimple;
 use Psr\Container\ContainerInterface;
 
 
@@ -12,8 +12,13 @@ use Psr\Container\ContainerInterface;
  *
  * Provides PSR-11 compatibility and magic access methods for convenience. That's it.
  */
-class Sleeve extends Container implements ContainerInterface
+class Sleeve extends Pimple implements ContainerInterface
 {
+
+    public function has($id)
+    {
+        return $this->offsetExists($id);
+    }
 
 
     public function get($id)
@@ -29,9 +34,10 @@ class Sleeve extends Container implements ContainerInterface
     }
 
 
-    public function has($id)
+    public function unset($id)
     {
-        return $this->offsetExists($id);
+        $this->offsetUnset($id);
+        return $this;
     }
 
 
@@ -57,4 +63,5 @@ class Sleeve extends Container implements ContainerInterface
     {
         $this->offsetUnset($id);
     }
+
 }
