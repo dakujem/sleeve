@@ -15,7 +15,7 @@
   ],
   "require": {
     "php": ">=7.4",
-    "pimple/pimple": "^3"
+    "pimple/pimple": "^3.4"
   },
   "require-dev": {
     "nette/tester": "^2.4"
