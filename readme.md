@@ -1,7 +1,6 @@
 
 # Sleeve
 
-[![Build Status](https://travis-ci.org/dakujem/sleeve.svg?branch=master)](https://travis-ci.org/dakujem/sleeve)
 ![PHP from Packagist](https://img.shields.io/packagist/php-v/dakujem/sleeve)
 ![Nature Friendly](https://img.shields.io/badge/nature%20%F0%9F%8C%B3-friendly%20%F0%9F%92%9A-green)
 
