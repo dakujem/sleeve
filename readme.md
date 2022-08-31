@@ -2,6 +2,7 @@
 # Sleeve
 
 ![PHP from Packagist](https://img.shields.io/packagist/php-v/dakujem/sleeve)
+[![Coverage Status](https://coveralls.io/repos/github/dakujem/sleeve/badge.svg?branch=trunk)](https://coveralls.io/github/dakujem/sleeve?branch=trunk)
 ![Nature Friendly](https://img.shields.io/badge/nature%20%F0%9F%8C%B3-friendly%20%F0%9F%92%9A-green)
 
 A lightweight PSR-11 service container.\
