@@ -13,7 +13,7 @@ A trivial extension of [Symfony Pimple container](https://pimple.symfony.com).
 Sleeve...
 - is dead simple
 - is PSR-11 compatible
-- extends Pimple ([pimple/pimple](https://packagist.org/packages/pimple/pimple)), a simple Dependency Injection Container by Symfony
+- extends [Pimple](https://github.com/silexphp/Pimple) ([pimple/pimple](https://packagist.org/packages/pimple/pimple)), a simple Dependency Injection Container by Symfony
 - only adds a couple of convenience methods (accessors) on top of the original
 - works well with [Slim v4](https://github.com/slimphp/Slim)
   and other micro frameworks and stacks
@@ -49,7 +49,7 @@ Sleeve supports (through Pimple):
 - parameters (with protection too)
 - extensions (service providers)
 
-📖 For full documentation, read the [Pimple container usage documentation](https://pimple.symfony.com/#usage). It's quite short, in fact.
+📖 For full documentation, read the [Pimple container usage documentation](https://github.com/silexphp/Pimple). It's quite short, in fact.
 
 
 ## Testing
